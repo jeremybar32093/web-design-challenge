@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(231, 231, 231);
+}
+
+#main-image {
+    display: inline;
+}
+
+#main-content {
+    float:left;
+}
