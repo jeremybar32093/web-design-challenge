@@ -2,10 +2,12 @@ body {
     background-color: rgb(231, 231, 231);
 }
 
-#main-image {
-    display: inline;
+.main-image {
+    height: 343.75px;
+    width: 500px;
+    float: left;
 }
 
-#main-content {
-    float:left;
+p {
+    display: inline;
 }
