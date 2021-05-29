@@ -30,3 +30,25 @@ body {
     background-color: white;
     border: 5px solid rgb(231,231,231)
 }
+
+.navbrand {
+    padding-right: 1050px;
+}
+
+.navbrand-title {
+    padding: 5px;
+    background-color: rgb(74, 170, 165);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    color: white;
+    font-weight: bold; 
+}
+
+.content-title {
+    color: rgb(74,170,165);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+.nav-standard {
+    color: black;
+    padding-top: 17px; 
+}
