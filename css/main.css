@@ -23,6 +23,18 @@ body {
     float: left;
 }
 
+.visualization-page-summary-image {
+    height: 288.75px;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.visualization-page-selected-image {
+    border: 2.5px solid rgb(74, 170, 165)
+}
+
 .table-image {
     height: 141.4875px;
     width: 205.8px;
