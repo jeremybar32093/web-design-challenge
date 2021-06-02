@@ -51,6 +51,10 @@ body {
     padding-right: 1050px;
 }
 
+.navbrand a {
+    text-decoration: none;
+}
+
 .navbrand-title {
     padding: 5px;
     background-color: rgb(74, 170, 165);
