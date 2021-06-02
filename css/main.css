@@ -77,3 +77,9 @@ body {
     padding-top: 17px; 
 }
 
+.comparison-page-title {
+    color:rgb(74, 170, 165);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    text-align: center;
+}
+
