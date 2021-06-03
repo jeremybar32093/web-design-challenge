@@ -40,8 +40,8 @@ body {
 }
 
 .table-image {
-    height: 141.4875px;
     width: 205.8px;
+    height: auto;
 }
 
 .visualization-content {
