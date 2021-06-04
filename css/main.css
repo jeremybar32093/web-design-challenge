@@ -2,6 +2,12 @@
     background-color: white;
 }
 
+@media (max-width: 600px) {
+    .nav-background {
+        background-color: rgb(74, 170, 165);
+    }
+}
+
 .data-page-body {
     background-color: white;
 }
