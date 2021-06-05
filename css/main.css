@@ -57,14 +57,6 @@ body {
     border: 5px solid rgb(231,231,231)
 }
 
-.navbrand {
-    padding-right: 1050px;
-}
-
-.navbrand a {
-    text-decoration: none;
-}
-
 .navbrand-title {
     padding: 5px;
     background-color: rgb(74, 170, 165);
