@@ -2,13 +2,9 @@
     background-color: white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 992px) {
     .nav-background {
         background-color: rgb(74, 170, 165);
-    }
-
-    .navbrand {
-        padding-right: 50px;
     }
 }
 
