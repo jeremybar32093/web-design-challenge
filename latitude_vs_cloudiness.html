@@ -24,55 +24,36 @@
 
   <body>
     <!-- Navbar -->
-    <nav class="nav nav-background">
-      <div class="container-fluid">
-        <ul class="nav justify-content-end">
-          <li class="navbar-brand navbrand">
-            <a href="index.html"><h2 class="navbrand-title">Latitude</h2></a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle nav-standard"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Plots
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li>
-                <a class="dropdown-item" href="latitude_vs_temp.html"
-                  >Latitude vs. Temperature</a
-                >
-              </li>
-              <li>
-                <a class="dropdown-item" href="latitude_vs_humidity.html"
-                  >Latitude vs. Humidity</a
-                >
-              </li>
-              <li>
-                <a class="dropdown-item" href="latitude_vs_cloudiness.html"
-                  >Latitude vs. Cloudiness</a
-                >
-              </li>
-              <li>
-                <a class="dropdown-item" href="latitude_vs_wind_speed.html"
-                  >Latitude vs. Wind Speed</a
-                >
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-standard" href="comparisons.html"
-              >Comparison</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-standard" href="data.html">Data</a>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid nav-background">
+        <a href="index.html" class="navbar-brand">
+          <h2 class="navbrand-title">Latitude</h2>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="nav justify-content-end">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle nav-standard" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Plots
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="latitude_vs_temp.html">Latitude vs. Temperature</a></li>
+                <li><a class="dropdown-item" href="latitude_vs_humidity.html">Latitude vs. Humidity</a></li>
+                <li><a class="dropdown-item" href="latitude_vs_cloudiness.html">Latitude vs. Cloudiness</a></li>
+                <li><a class="dropdown-item" href="latitude_vs_wind_speed.html">Latitude vs. Wind Speed</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  nav-standard" href="comparisons.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-standard" href="data.html">Data</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 

@@ -6,6 +6,10 @@
     .nav-background {
         background-color: rgb(74, 170, 165);
     }
+
+    .navbrand {
+        padding-right: 50px;
+    }
 }
 
 .data-page-body {
